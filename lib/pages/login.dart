@@ -23,7 +23,7 @@ class Login extends StatelessWidget {
               child: Opacity(
                 opacity: 0.3,
                 child: Image.asset(
-                  "assets/images/washing_machine_illustration.png",
+                  "assets/images/whey.png",
                 ),
               ),
             ),

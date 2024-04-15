@@ -27,7 +27,7 @@ class _SingleOrderState extends State<SingleOrder> {
               child: Opacity(
                 opacity: 0.3,
                 child: Image.asset(
-                  "assets/images/washing_machine_illustration.png",
+                  "assets/images/Gambar.png",
                 ),
               ),
             ),
@@ -65,7 +65,7 @@ class _SingleOrderState extends State<SingleOrder> {
                                 ),
                           ),
                           TextSpan(
-                            text: "Order #521",
+                            text: "Order #01",
                             style: Theme.of(context)
                                 .textTheme
                                 .titleLarge
@@ -109,7 +109,7 @@ class _SingleOrderState extends State<SingleOrder> {
                             height: 6.0,
                           ),
                           const Text(
-                            "WASHING AND FOLDING",
+                            "Whey Protein",
                             style: TextStyle(
                               fontWeight: FontWeight.w600,
                               color: Color.fromRGBO(143, 148, 162, 1),
@@ -118,24 +118,18 @@ class _SingleOrderState extends State<SingleOrder> {
                           const SizedBox(
                             height: 10.0,
                           ),
-                          getItemRow("3", "T-shirts (man)", "\$30.00"),
-                          getItemRow("2", "T-shirts (man)", "\$40.00"),
-                          getItemRow("4", "Pants (man)", "\$80.00"),
-                          getItemRow("1", "Jeans (man)", "\$20.00"),
+                          getItemRow("3", "EVOMASS", "\$30.00"),
+                          getItemRow("2", "EVOBOOSTS", "\$40.00"),
+                          getItemRow("4", "PREVO", "\$80.00"),
+                          getItemRow("1", "BCAA", "\$20.00"),
                           const SizedBox(
                             height: 30.0,
                           ),
-                          const Text(
-                            "IRONING",
-                            style: TextStyle(
-                              fontWeight: FontWeight.w600,
-                              color: Color.fromRGBO(143, 148, 162, 1),
-                            ),
-                          ),
+                          
                           const SizedBox(
                             height: 10.0,
                           ),
-                          getItemRow("3", "T-shirt (woman)", "\$30.00"),
+                          
                           const Divider(),
                           getSubtotalRow("Subtotal", "\$200.00"),
                           getSubtotalRow("Delivery", "\$225.00"),
@@ -158,7 +152,7 @@ class _SingleOrderState extends State<SingleOrder> {
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
                           Text(
-                            "Your clothes are now washing.",
+                            "ORDER IS IN PROGRESS.",
                             style: Theme.of(context)
                                 .textTheme
                                 .titleLarge
@@ -184,7 +178,7 @@ class _SingleOrderState extends State<SingleOrder> {
                                       ),
                                     ),
                                     TextSpan(
-                                      text: "24 January 2021",
+                                      text: "30 January 2024",
                                       style: TextStyle(
                                         color: Color.fromRGBO(74, 77, 84, 1),
                                         fontSize: 15.0,
@@ -194,7 +188,7 @@ class _SingleOrderState extends State<SingleOrder> {
                                 ),
                               ),
                               Image.asset(
-                                "assets/images/washlogo.png",
+                                "assets/images/OIP.png",
                               ),
                             ],
                           )

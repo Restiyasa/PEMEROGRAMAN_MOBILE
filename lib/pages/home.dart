@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Constants.primaryColor,
+      backgroundColor: Color.fromARGB(255, 15, 148, 243),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -20,15 +20,15 @@ class Home extends StatelessWidget {
               alignment: Alignment.bottomCenter,
               children: [
                 Positioned(
-                  top: 100.0,
-                  left: 0.0,
+                  top: 50.0,
+                  left: 250.0,
                   right: 0.0,
                   child: Container(
                     height: 150.0,
                     width: double.infinity,
                     decoration: const BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/cloth_faded.png"),
+                        image: AssetImage("assets/images/Gambar.png"),
                       ),
                     ),
                   ),
@@ -37,7 +37,7 @@ class Home extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(20.0),
                     child: Image.asset(
-                      "assets/images/illustration.png",
+                      "assets/images/tampilan_awal.png",
                       scale: 1.1,
                     ),
                   ),
@@ -64,7 +64,7 @@ class Home extends StatelessWidget {
                 children: [
                   const SizedBox(height: 20.0),
                   Text(
-                    "Welcome to Laundry Apps!",
+                    "Welcome to Protein",
                     style: Theme.of(context).textTheme.titleLarge?.copyWith(
                           fontWeight: FontWeight.w600,
                           color: const Color.fromRGBO(19, 22, 33, 1),
@@ -74,7 +74,7 @@ class Home extends StatelessWidget {
                     height: 10.0,
                   ),
                   const Text(
-                    "This is the first version of our apps, simulate some layouting feature",
+                    "Good health comes from its nutrition ",
                     style: TextStyle(
                       color: Color.fromRGBO(74, 77, 84, 1),
                       fontSize: 14.0,
@@ -108,3 +108,5 @@ class Home extends StatelessWidget {
     );
   }
 }
+
+

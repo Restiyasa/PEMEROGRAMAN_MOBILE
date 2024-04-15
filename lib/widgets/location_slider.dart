@@ -13,16 +13,16 @@ class LocationSlider extends StatelessWidget {
     // Make a list to represent each card
     List<Location> locations = [
       Location(
-        address: "Jalan Udayana No.11",
+        address: "Evomass",
         color: const Color.fromRGBO(89, 69, 199, 1),
-        state: "Singaraja",
-        imagePath: "assets/images/house1.png",
+        state: "12 lbs",
+        imagePath: "assets/images/logosusu.png",
       ),
       Location(
-        address: "Desa Jineng Dalem",
+        address: "Pro Gainer ",
         color: const Color.fromRGBO(237, 116, 41, 1),
-        state: "Sukasada",
-        imagePath: "assets/images/house2.png",
+        state: "12 lbs",
+        imagePath: "assets/images/logosusu.png",
       )
     ];
     return Container(
@@ -56,7 +56,7 @@ class LocationSlider extends StatelessWidget {
                 clipBehavior: Clip.none,
                 children: [
                   Positioned(
-                    right: -16.0,
+                    right: -10.0,
                     top: 0.0,
                     child: Opacity(
                       opacity: 0.69,

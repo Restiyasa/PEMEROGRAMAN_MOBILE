@@ -60,3 +60,4 @@ Route<dynamic> _onGenerateRoute(RouteSettings settings) {
       });
   }
 }
+
